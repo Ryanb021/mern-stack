@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className="navbar bg-base-100">
           <div className="flex-1">
-            <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+            <Link href="/" className="btn btn-ghost normal-case text-xl">MERN Stack</Link>
           </div>
           <div className="flex-none">
             <ul className="menu menu-horizontal px-1">
