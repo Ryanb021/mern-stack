@@ -20,10 +20,9 @@ export default function RootLayout({ children }) {
           </div>
           <div className="flex-none">
             <ul className="menu menu-horizontal px-1">
-              <li><a>Link</a></li>
-              <li>
-                
-              </li>
+              <li><Link href="/about">About</Link></li>
+              <li><Link href="/about/contact">Contact</Link></li>
+              <li><Link href="/githubusers">GitHub Users</Link></li>
             </ul>
           </div>
         </div>
