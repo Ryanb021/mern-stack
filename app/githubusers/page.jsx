@@ -47,7 +47,9 @@ const GitHubUsersPage = async () => {
                 </Link>
               </td>
               <th>
+                <Link href={`/githubusers/${user.login}`} className="btn btn-link">
                 Go to Repos
+                </Link>
               </th>
             </tr>
           ))}
